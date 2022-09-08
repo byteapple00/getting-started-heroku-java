@@ -1,0 +1,353 @@
+    1  sudo apt update
+    2  sudo apt list --upgradable
+    3  sudo apt upgrade
+    4  vi pw
+    5  sudo apt-get install ibus-unikey
+    6  ibus restart
+    7  openvpn --config admicro-mlhcm.ovpn
+    8  openvpn --config admicro-mlhcm.ovpn
+    9  ./vpn.sh 
+   10  mkdir backup
+   11  cd client-admicro-mlhcm/
+   12  ./v
+   13  ./vpn.sh
+   14  cd
+   15  chmod xrw+ client-admicro-mlhcm/
+   16  chmod
+   17  chmod --help
+   18  chmod xrw client-admicro-mlhcm/
+   19  chmod +rwx client-admicro-mlhcm/
+   20  cd client-admicro-mlhcm/
+   21  ./v
+   22  ls
+   23  cd client-admicro-mlhcm
+   24  chmod -R +rwx client-admicro-mlhcm
+   25  chmod -R +rwx client-admicro-mlhcm/
+   26  cd
+   27  chmod -R +rwx client-admicro-mlhcm/
+   28  cd client-admicro-mlhcm/
+   29  ./vpn.sh 
+   30  ./idea.sh 
+   31  cd
+   32  sudo apt update
+   33  java -version
+   34  sudo apt install default-jre
+   35  cd
+   36  heroku
+   37  curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+   38  heroku login
+   39  sudo curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+   40  ps aux | grep -i apt
+   41  sudo kill 17433
+   42  sudo kill 11904
+   43  sudo curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+   44  heroku login
+   45  ./idea.sh 
+   46  mvn install
+   47  sudo apt install maven
+   48  mvn install
+   49  git status
+   50  git add .
+   51  git commit -m "update"
+   52  git push origin master
+   53  git push heroku master
+   54  git status
+   55  git add .
+   56  git commit -m "chore: chang config"
+   57  git push heroku master
+   58  mvn install
+   59  git add .
+   60  git commit -m "chore: change system.properties location"
+   61  git push heroku master
+   62  git add .
+   63  git commit -m "chore: change jdk version"
+   64  git push heroku master
+   65  git checkout dev
+   66  git checkout chores/user-log-event-flow 
+   67  ./idea.sh 
+   68  sudo ./idea.sh 
+   69  git clone https://github.com/heroku/java-getting-started
+   70  cd java-getting-started
+   71  web: java -jar target/java-getting-started-1.0.jar
+   72  heroku
+   73  ls
+   74  cat Procfile 
+   75  mvn archetype:generate c
+   76  heroku create java-example
+   77  git push heroku mastẻ
+   78  git push heroku master
+   79  git push heroku main
+   80  heroku git:remote --app java-example
+   81  heroku git:remote --app example-app
+   82  git remote add origin git@github.com:binariipictor/java-example.git
+   83  git branch -M main
+   84  git push origin -u origin main
+   85  heroku
+   86  git status
+   87  heroku ps
+   88  heroku create
+   89  git push heroku main
+   90  heroku ps:scale web=0
+   91  heroku addons
+   92  heroku config
+   93  heroku pg
+   94  pg-psql
+   95  heroky pg-psql
+   96  heroku pg-psql
+   97  ls
+   98  sudo cat src/main/resources/application.properties
+   99  ls
+  100  cat system.properties 
+  101  cd src/
+  102  ls
+  103  cd main/
+  104  ls
+  105  cd resources/
+  106  ls
+  107  cat application.properties 
+  108  cd heroku run echo \$JDBC_DATABASE_URL
+  109  heroku run echo \$JDBC_DATABASE_URL
+  110  mvn install
+  111  cd ..
+  112  mvn intall
+  113  mvn install
+  114  Prepare the Local Environment
+  115  In the following steps, you learn how to work with your app locally and push changes to Heroku. Begin by installing your dependencies locally in this step.
+  116  Ensure that you have Maven installed before running mvn clean install in your local directory. This command installs the dependencies, preparing your system to run the app locally.
+  117  mvn clean install
+  118  ...
+  119  [INFO] Installing /Users/example-user/java-getting-started/pom.xml to /Users/example-user/.m2/repository/com/example/java-getting-started/1.0/java-getting-started-1.0.pom
+  120  [INFO] ------------------------------------------------------------------------
+  121  [INFO] BUILD SUCCESS
+  122  [INFO] ------------------------------------------------------------------------
+  123  [INFO] Total time:  2.201 s
+  124  [INFO] Finished at: 2021-09-27T22:38:43-04:00
+  125  [INFO] ------------------------------------------------------------------------
+  126  If you don’t have Maven installed, or get an error like 'mvn' is not recognized as an internal or external command, use the following wrapper command instead. Run mvnw clean install on Windows or ./mvnw clean install on Mac and Linux. This command both installs Maven and runs the Maven command.
+  127  The Maven process compiles and builds a JAR, with dependencies, placing it into your application’s target directory. The spring-boot-maven-plugin in the pom.xml provides this process.
+  128  If you aren’t using Spring in your app, add the following plugin configuration in the pom.xml file.
+  129  <plugin>
+  130  heroku local web
+  131  heroku pg:psql
+  132  select * from ticks
+  133  heroku run echo \$JDBC_DATABASE_URL
+  134  sudo gedit .env 
+  135  heroku local web
+  136  sudo gedit .env 
+  137  mvn clean install
+  138  heroku local web
+  139  cd
+  140  cd client-admicro-mlhcm/
+  141  ./vpn.sh 
+  142  cd 
+  143  cd IdeaProjects/
+  144  git clone https://lab.admicro.vn/recengine/recengine-data-consumer.git
+  145  git
+  146  cd
+  147  htop
+  148  sudo snap install htop
+  149  htop
+  150  ./idea.sh 
+  151  sudo adduser tienbt2
+  152  ./idea.sh 
+  153  ./datagrip.sh
+  154  warp-cli off
+  155  warp-cli off -h
+  156  warp-cli -h
+  157  warp-cli disconnect
+  158  warp-cli statú
+  159  warp-cli status
+  160  warp-cli disable-wifi
+  161  warp-cli status
+  162  sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
+  163  sudo apt-get update && sudo apt-get install qbittorrent
+  164  qbittorrent
+  165  sudo apt install qbittorrent
+  166  heroku addons:create papertrail
+  167  heroku ps
+  168  ls
+  169  cd IdeaProjects/
+  170  heroku ps
+  171  ls
+  172  cd java-getting-started/
+  173  ls
+  174  heroku ps
+  175  heroku logs
+  176  heroku logs -t
+  177  heroku ps -a mysterious-sierra-23658
+  178  heroku ps
+  179  heroku open
+  180  heroku logs
+  181  heroku logs --tail
+  182  mnv install
+  183  mvn install
+  184  java -jar target/java-getting-started-1.0.jar 
+  185  herolu open
+  186  heroku open
+  187  heroku ps
+  188  heroku ps:scale web=0
+  189  heroku ps
+  190  heroku ps:scale web=1
+  191  heroku open
+  192  heroku logs --tail
+  193  heroku addons:create papertrail
+  194  heroku logs --tail
+  195  heroku addons
+  196  heroku config
+  197  heroku addons:create heroku-postgresql:<PLAN_NAME>
+  198  heroku addons:create heroku-postgresql:hobby-dev
+  199  docker compose version
+  200  sudo apt remove docker-desktop
+  201  rm -r $HOME/.docker/desktop
+  202  sudo rm /usr/bin/com.docker.cli
+  203  sudo apt purge docker-desktop
+  204  sudo apt-get update
+  205  sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
+  206  sudo mkdir -p /etc/apt/keyrings
+  207  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  208    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  209  sudo apt-get update
+  210  sudo docker run hello-world
+  211  gpg --generate-key
+  212  sudo gpg --generate-key
+  213  pass init 89525856C94409E0BBC725F6907854E50BD4A915
+  214  apt-get install cheese
+  215  sudo apt-get install cheese
+  216  docker run --name repo alpine/git clone https://github.com/docker/getting-started.git
+  217  heroku pg
+  218  heroku pg:psql
+  219  docker pull postgres
+  220  docker-desktop
+  221  sudo service docker status
+  222  modprobe kvm
+  223  sudo modprobe kvm
+  224  kvm-ok
+  225  sudo kvm-ok
+  226  sudo /usr/sbin/kvm-ok
+  227  lsmod | grep kvm
+  228  sudo lsmod | grep kvm
+  229  sudo /usr/sbin/kvm-ok
+  230  sudo lshw --class video
+  231  /bin/ls -l /dev/video*;id
+  232  sudo chown root:video /dev/video*
+  233  sudo chmod 666 /dev/video*
+  234  v4l2-ctl --list-devices
+  235  sudo apt install v4l-utils
+  236  dmesg --follow 
+  237  ll /dev/video*
+  238  ll
+  239  cd cheese
+  240  cheese
+  241  lsusb
+  242  dmesg | grep usb
+  243  sudo apt-get install v4l-utils, after that run v4l2-ctl --all
+  244  sudo apt-get install v4l-utils
+  245  v4l2-ctl --all
+  246  sudo v4l2-ctl --all
+  247  ll /dev/video0
+  248  ll ~/dev/video0
+  249  snap connect ffmpeg:camera
+  250  sudo snap connect ffmpeg:camera
+  251  gphoto2 --stdout --capture-movie | ffmpeg -i - -vf format=yuv420p -f v4l2 /dev/video0
+  252  sudo snap install ffmpeg  # version 4.3.1,
+  253  sudo snap install ffmpeg  # version 4.3.1
+  254  ll ~/dev/video0
+  255  cheese
+  256  gphoto2 --stdout --capture-movie | ffmpeg -i - -vf format=yuv420p -f v4l2 /dev/video0
+  257  sudo gphoto2 --stdout --capture-movie | ffmpeg -i - -vf format=yuv420p -f v4l2 /dev/video0
+  258  kmv
+  259  kmvm
+  260  kvm
+  261  sudo apt install qemu-kvm
+  262  kvm-ok
+  263  modprobe kvm_intel
+  264  heroku pg:psql
+  265  heroku pg:psql -a
+  266  cd IdeaProjects/
+  267  ls
+  268  cd java-getting-started/
+  269  ls
+  270  heroku pg:psql -a
+  271  heroku pg:psql
+  272  psql
+  273  docker exec --help
+  274  docker exec -it postgres-DMzo psql -U postgres
+  275  heroky pg:qsql
+  276  heroku pg:qsql
+  277  heroku pg:psql
+  278  ls
+  279  cat system.properties 
+  280  cd src/
+  281  ls
+  282  cd main/
+  283  ls
+  284  cd resources/
+  285  ls
+  286  cat application.properties 
+  287  heroky run echo \$JDBC_DATABASE_URL
+  288  heroku run echo \$JDBC_DATABASE_URL
+  289  heroku pg:psql
+  290  ls
+  291  cd ..
+  292  ls
+  293  cat app.json 
+  294  heroku pg:info
+  295  ls
+  296  heroku local
+  297  heroku local web
+  298  cat .env
+  299  heroku config:set JDBC_DATABASE_URL=postgres://postgres:postgrespw@localhost:55000
+  300  cat .env
+  301  heroku config:unset JDBC_DATABASE_URL
+  302  vi .env
+  303  nano .env
+  304  docker exec -it postgres-DMzo psql -U postgres
+  305  nano .env
+  306  heroku local web
+  307  nano .env
+  308  heroku local web
+  309  heroku local
+  310  heroku pg:premote
+  311  heroku pg:promote
+  312  heroku pg:info
+  313  docker exec -it postgres-DMzo psql -U postgres
+  314  docker ps -a
+  315  sudo apt-get install postgresql
+  316  which psql
+  317  psql
+  318  sudo psql
+  319  sudo -u postgres createuse mtb
+  320  sudo -u postgres
+  321  sudo su - postgres
+  322  ls
+  323  psql
+  324  which psql
+  325  psql
+  326  psql mtb
+  327  sudo su - postgres
+  328  mvn install
+  329  java -jar target/java-getting-started-1.0.jar 
+  330  ls
+  331  psql
+  332  psql postgrep
+  333  postgrep
+  334  psql -U postgrep
+  335  psql -U postgrep 1234
+  336  psql -U postgrep
+  337  history
+  338  cd IdeaProjects/java-getting-started/
+  339  ls
+  340  nano .env 
+  341  heroku local web
+  342  nano .env 
+  343  heroku local web
+  344  nano .env 
+  345  heroku local web
+  346  nano .env 
+  347  heroku local web
+  348  nano .env 
+  349  heroku local web
+  350  heroku pg:psql
+  351  heroku run echo \$JDBC_DATABASE_URL
+  352  history
+  353  history > 08-09.txt
